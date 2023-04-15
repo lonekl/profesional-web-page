@@ -1,0 +1,183 @@
+body {
+	background-color: #f0e8e8;
+}
+
+.everything {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.top_bar {
+
+	border-top: 13px solid transparent;
+	border-bottom: 15px solid transparent;
+	font-size: 28pt;
+	color: #ffffff;
+	background-image: linear-gradient(
+		90deg,
+		#ff2020 0px,
+		#af1010 100%
+	);
+
+}
+.top_bar span {
+	color: #cfcfcf;
+}
+.top_bar :link {
+	color: #ffffff;
+	text-decoration: none;
+}
+.top_bar :visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+.top_bar :hover {
+	font-size: 34pt;
+	text-decoration-line: underline;
+	text-decoration-thickness: 10px;
+}
+
+.top_bar_element {
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	transition: font-size 550ms;
+}
+
+.name_bar {
+
+	font-size: 36pt;
+	color: white;
+
+	background-image: linear-gradient(
+		90deg,
+		#9d8d8d 0px,
+		#ff000000 100%
+	);
+
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+.name_bar span {
+	padding-top: 35px;
+	padding-left: 10px;
+}
+
+.main_text {
+	font-size: 18pt;
+	border-top: 10px solid transparent;
+	text-shadow: 1.6px 1.6px 2px white;
+	padding-left: 13px;
+}
+
+.special_name {
+	border: 2px ridge #606060;
+	background-color: #b0b0b0;
+	text-shadow: 0px 0px transparent;
+}
+
+.best_clients {
+
+	position: relative;
+	width: calc(80% - 25px);
+	left: calc(10% - 25px);
+
+	border: 25px solid transparent;
+	background-color: #a1929280;
+
+	padding-left: 12.5px;
+	padding-bottom: 25px;
+
+	margin-bottom: 30px;
+
+	transition: filter 400ms;
+
+}
+
+.best_clients img {
+	transition: filter 400ms;
+}
+
+.best_clients :hover {
+	filter: brightness(145%);
+}
+
+.manipulative_ad {
+	font-size: 32pt;
+	padding-left: 23px;
+}
+
+.down_bar {
+	margin-top: 20%;
+	background-color: #3c3c3c;
+	border-top: 6px solid #656565;
+	border-bottom: 30px solid transparent;
+	/*height: 100%;*/
+}
+
+.down_links {
+	margin-top: 55px;
+	margin-left: 10%;
+	margin-right: 10%;
+	/*text-align: center;*/
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.down_links :link {
+	font-size: 10pt;
+	color: #939393;
+	position: flow;
+}
+
+.down_links :visited {
+	font-size: 10pt;
+	color: #818194;
+}
+
+.down_links :hover {
+	font-size: 10pt;
+	color: #b0b0b0;
+}
+
+.cookie_bar {
+	position: fixed;
+	top: calc(100% - 175px);
+	width: 100%;
+	height: 175px;
+	background: white;
+	border-top: 5px solid #b6b6b6;
+	transition: top 550ms;
+}
+
+.cookie_reject {
+	border: 4px ridge #b6b6b6;
+	background-color: #f0f0f0;
+	color: black;
+	font-size: 30pt;
+	cursor: pointer;
+	transition: 550ms;
+}
+
+/* For some reason this doesn't work */
+.cookie_reject :hover {
+	color: #2e2e2e;
+}
+
+.background_image {
+	z-index: -1;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+	opacity: 0.75;
+	filter: blur(8px) contrast(120%);
+
+	user-drag: none;
+	-webkit-user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
