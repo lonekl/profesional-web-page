@@ -5,6 +5,7 @@ And I was trying to use pure html and css but css can't affect element when othe
 
 ### How to
 To see it just git clone this repository and open `index.html` in browser.
+Or you can open it on [github.io service](https://lonekl.github.io/profesional-web-page)
 
 ### Also
 Code isn't made great, I realized it after some time.
